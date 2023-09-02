@@ -1,0 +1,255 @@
+body {
+    background-image:url("ocean.jpeg");
+    background-position: center;
+    background-size:contain;
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    font-size: 16pt;
+    width: 100%;
+}
+h2 ,h3{
+    font-family: 'Special Elite', cursive;
+}
+
+
+header{
+    color: white;
+}
+
+h1{ 
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px  8px 10px black;
+    font-weight: lighter;
+    font-family: 'Darker Grotesque', sans-serif;
+    vertical-align: top;
+}
+#p2{
+    text-transform: uppercase;
+    text-shadow: 2px 4px 6px black;
+    font-size: 60px;
+    font-weight: lighter;
+}
+#p3{  
+    text-transform: uppercase;
+    text-shadow: 4px 4px 5px black;
+    font-size:60px;
+    font-weight: 700;
+
+}
+.main{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.content{
+    padding: 1em;
+    width: 80ex;
+}
+iframe{
+    width: 40rem;
+    height: 25rem;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+.main p{
+    margin:0;
+    padding: 1em;
+}
+li{
+    list-style: none;
+}
+
+.navbar{
+    background-color: hsla(180, 93%, 21%, 0.75);
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+}
+.menu a{
+    color:  white;
+    text-decoration: none;
+}
+.menu li:hover {
+    background-color: #d8d8d8c0;
+    transition: 0.3s ease;
+}
+.menu a:hover{
+    color: hsla(180, 93%, 21%, 0.75);
+}
+.menu li{
+    color: white;
+    padding: 0px 30px;
+    font-family: 'Darker Grotesque', sans-serif;
+    text-decoration: none;
+}
+.menu ul{
+    padding: 0;
+}
+.tech{
+    position: relative;
+}
+.drop{
+    display: none;
+    position: absolute;
+    top: 8px;
+    background-color: hsla(180, 93%, 21%);
+    z-index: 1;
+    left: 0;
+    right: 0;
+}
+.drop li{
+    padding: 10px;
+    text-align: center;
+}
+
+.tech:hover .drop{
+    display: block;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.table1{
+    display: flex;
+    justify-content: center;
+
+}
+div.table1 table{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+}
+
+div.table1 th{
+    border-bottom: 2px solid black;
+}
+tbody{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+div.table1 td{
+    border-top: 1px solid black;
+    padding: 6px;
+}
+img+p{
+    text-align: justify;
+}
+.image1{
+    display: inline;
+    width: 300px;
+    justify-content: center;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(172, 170, 170);
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    transform: rotate(-2deg);
+    box-shadow: 3px 3px 10px gray;
+    text-align: right;
+}
+.caption{
+    color: rgb(117, 116, 116);
+    font-family: 'Special Elite', cursive;
+    font-size: 14px;
+}
+.image2{
+    display: inline;
+    justify-content: center;
+    float: right;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(172, 170, 170);
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    transform: rotate(2deg);
+    box-shadow: 3px 3px 10px gray;
+    text-align: right;
+}
+.quote{
+    color: #258e8e;
+    text-align: center;
+    font-size: 30pt;
+}
+.image3{
+    display: inline;
+    width: 300px;
+    justify-content: center;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(172, 170, 170);
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    transform: rotate(-2deg);
+    box-shadow: 3px 3px 10px gray;
+    text-align: right;
+}
+.image4{
+    display: inline;
+    justify-content: center;
+    float: right;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(172, 170, 170);
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    transform: rotate(2deg);
+    box-shadow: 3px 3px 10px gray;
+    text-align: right;
+}
+strong{
+    font-weight: 800;
+}
+
+.calculator{
+    background-color: #fff2b6;
+    border: 2px solid #f0d558;
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    text-align: left;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.num{
+    width: 30px;
+}
+
+p.cal{
+    padding: 0;
+}
+.btn{
+    display: flex;
+    justify-content: right;
+}
+.reset{
+    font-size: 12pt;
+    background-color: #f6edc6;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 170, 170);
+    padding: 8px;
+}
+.reset:hover{
+    background-color: #f0d558;
+    color: white;
+}
+
+
+
